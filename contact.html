@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Singh Sound Syndicate</title>
+  <meta name="description" content="Get in touch with Singh Sound Syndicate for bookings, press inquiries, licensing, and general questions.">
+  <link rel="icon" type="image/png" href="images/Singh_Sound_Syndicate_Logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav__logo"><div class="nav__logo-icon">S</div><div class="nav__logo-text">Singh Sound <span>Syndicate</span></div></a>
+    <ul class="nav__links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="roster.html">Roster</a></li><li><a href="releases.html">Releases</a></li><li><a href="contact.html">Contact</a></li></ul>
+    <div class="nav__socials"><a href="#">IG</a><a href="#">X</a><a href="#">YT</a><a href="#">SP</a></div>
+    <button class="nav__hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav__mobile"><a href="index.html">Home</a><a href="about.html">About</a><a href="roster.html">Roster</a><a href="releases.html">Releases</a><a href="contact.html">Contact</a></div>
+
+  <div class="page-header">
+    <span class="label reveal">Get in Touch</span>
+    <h1 class="heading-xl reveal reveal-delay-1">Contact</h1>
+  </div>
+
+  <section class="section">
+    <div class="grid-2" style="align-items: start; gap: 4rem;">
+      <!-- FORM -->
+      <div class="reveal">
+        <h2 class="heading-md" style="margin-bottom: 0.5rem;">Send Us a Message</h2>
+        <p style="color: var(--text); margin-bottom: 2rem;">Whether it's a booking inquiry, press request, or licensing question — we'd love to hear from you.</p>
+
+        <form id="contact-form">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <select class="form-select" id="subject" name="subject">
+              <option value="">Select a topic...</option>
+              <option value="booking">Booking / Live Events</option>
+              <option value="press">Press / Media Inquiry</option>
+              <option value="sync">Sync / Licensing</option>
+              <option value="merch">Merchandise</option>
+              <option value="general">General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="artist">Regarding Artist (optional)</label>
+            <select class="form-select" id="artist" name="artist">
+              <option value="">All / General</option>
+              <option value="coquine">Coquine</option>
+              <option value="jahsingh">Jahsingh</option>
+              <option value="mchana">MChana</option>
+              <option value="neon-chai">Neon Chai</option>
+              <option value="red-river-creek">Red River Creek</option>
+              <option value="sons">Sons of the Golden Age</option>
+              <option value="velvet-souls">The Velvet Souls</option>
+              <option value="midnight-raaga">Singh Sound Syndicate</option>
+              <option value="glass-temple">Mr. Singh &amp; the Sassy Sardarnis</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Tell us what you're looking for..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message</button>
+        </form>
+      </div>
+
+      <!-- INFO SIDEBAR -->
+      <div class="reveal reveal-delay-1">
+        <div style="padding: 2.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: 3px; margin-bottom: 2rem;">
+          <h3 class="heading-sm" style="margin-bottom: 1.5rem;">Direct Contacts</h3>
+          <div style="margin-bottom: 1.5rem;">
+            <div class="label" style="margin-bottom: 0.4rem;">General Inquiries</div>
+            <a href="mailto:info@singhsoundsyndicate.com" style="color: var(--gold);">info@singhsoundsyndicate.com</a>
+          </div>
+        
+          <div style="margin-bottom: 1.5rem;">
+            <div class="label" style="margin-bottom: 0.4rem;">Press &amp; Media</div>
+            <a href="mailto:press@singhsoundsyndicate.com" style="color: var(--gold);">press@singhsoundsyndicate.com</a>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div><a href="index.html" class="nav__logo" style="margin-bottom:0.5rem;"><div class="nav__logo-icon">S</div><div class="nav__logo-text">Singh Sound <span>Syndicate</span></div></a><p class="footer__brand-desc">An independent music label dedicated to amplifying uncompromising artists across every genre and generation.</p></div>
+      <div><div class="footer__heading">Navigate</div><a href="index.html" class="footer__link">Home</a><a href="about.html" class="footer__link">About</a><a href="roster.html" class="footer__link">Roster</a><a href="releases.html" class="footer__link">Releases</a><a href="contact.html" class="footer__link">Contact</a></div>
+      <div><div class="footer__heading">Artists</div><a href="bands/coquine.html" class="footer__link">Coquine</a><a href="bands/jahsingh.html" class="footer__link">Jahsingh</a><a href="bands/mchana.html" class="footer__link">MChana</a><a href="bands/neon-chai.html" class="footer__link">Neon Chai</a><a href="bands/red-river-creek.html" class="footer__link">Red River Creek</a></div>
+      <div><div class="footer__heading">&nbsp;</div><a href="bands/sons-of-the-golden-age.html" class="footer__link">Sons of the Golden Age</a><a href="bands/the-velvet-souls.html" class="footer__link">The Velvet Souls</a><a href="bands/singh-sound-syndicate.html" class="footer__link">Singh Sound Syndicate</a><a href="bands/mr-singh-and-the-sassy-sardarnis.html" class="footer__link">Mr. Singh &amp; the Sassy Sardarnis</a></div>
+    </div>
+    <div class="footer__bottom"><p class="footer__copyright">&copy; <span class="current-year">2026</span> Singh Sound Syndicate. All rights reserved.</p><div class="footer__socials"><a href="#">Instagram</a><a href="#">X / Twitter</a><a href="#">YouTube</a><a href="#">Spotify</a><a href="#">Apple Music</a></div></div>
+  </footer>
+
+  <div class="player"><div class="player__art"><div class="player__art-placeholder placeholder-coquine" style="width:100%;height:100%;"></div></div><div class="player__info"><div class="player__title">Les Lumières d'Été</div><div class="player__artist">Coquine</div></div><div class="player__controls"><button class="player__btn">⏮</button><button class="player__btn player__btn--play">▶</button><button class="player__btn">⏭</button></div><div class="player__progress"><div class="player__progress-fill"></div></div><div class="player__time">1:22 / 3:54</div><button class="player__close">✕</button></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
